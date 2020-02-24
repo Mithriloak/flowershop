@@ -29,7 +29,6 @@ namespace Tests
             order.SetDelivered(number);
         }
 
-        [Test]
         public void TestPrice()
         {
             //Arrange
@@ -46,5 +45,6 @@ namespace Tests
             Assert.AreEqual(240, number.Price);
 
         }
+
     }
 }
